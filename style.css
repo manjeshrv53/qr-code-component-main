@@ -70,34 +70,3 @@ body {
   color: var(--color-grey);
   margin-bottom: 1.6rem;
 }
-
-/* Attribution styling */
-.attribution {
-  text-align: center;
-  color: var(--color-grey);
-  padding: 1.6rem;
-}
-
-.attribution a:link,
-.attribution a:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: var(--color-dark-navy);
-  transition: all 0.3s ease;
-  border-bottom: 1px solid transparent;
-}
-
-.attribution a:hover,
-.attribution a:active {
-  border-bottom: 1px solid currentColor;
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .attribution {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
